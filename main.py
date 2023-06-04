@@ -10,3 +10,5 @@ def foo(nums: List[int]) -> List[int]:
                 product *= nums[j]
         result.append(product)
         print(result)
+
+foo([1, 2, 3, 4, 5])
